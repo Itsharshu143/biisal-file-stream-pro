@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 bot_name = "Harshu_file2links_bot"
-bisal_channel = "https://t.me/+N3nxRCYjqws3N2I1"
+bisal_channel = "https://t.me/+BhP3I9nI9K4zZTk9"
 bisal_grp = "https://t.me/+BhP3I9nI9K4zZTk9"
 
 class Var(object):
@@ -26,7 +26,7 @@ class Var(object):
     OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Harshu'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', '@itsharshu_143'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
